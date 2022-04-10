@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1023px){
+    .nav-list{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    /* .nav-list li a {
+        /* padding: 100px 10px; 
+        /* transition: all 0.5s ease-out; 
+
+    } */
+    .navbar{
+        flex-direction: column;
+        /* background: linear-gradient(to right bottom,#aabebaec, #a59696);*/
+        opacity: 0.9;
+        background: rgba(0, 0, 0, 0.7) url(./ex1img/library-ga1929f518_1920.jpg);
+        background-size: cover;
+        background-blend-mode:color-burn;
+        transition: all 0.5s ease-out;
+        height: 300px;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 70px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 90%;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .first{
+        height:50vh;
+    }
+    .second img{
+        width: 19rem;
+        margin-top: 35%;
+    }
+    .ssp{
+        padding: 0px 0px;
+
+    }
+    .ssimg{
+        width: 20rem; 
+    }
+}
